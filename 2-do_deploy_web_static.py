@@ -2,7 +2,6 @@
 """
 Function that compress a folder
 """
-
 from fabric.api import put, run, env
 from os.path import exists
 env.hosts = ['3.81.28.4', '100.25.191.46']
