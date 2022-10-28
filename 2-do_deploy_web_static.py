@@ -4,10 +4,7 @@ from datetime import datetime
 from fabric.api import *
 import shlex
 import os
-
-
 env.hosts = ['3.81.28.4', '100.25.191.46']
-env.user = "ubuntu"
 
 
 def do_deploy(archive_path):
