@@ -1,5 +1,7 @@
 #!/usr/bin/python3
-""" Function that compress a folder """
+"""
+Function that compress a folder
+"""
 
 from fabric.api import put, run, env
 from os.path import exists
