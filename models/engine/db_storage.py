@@ -55,17 +55,17 @@ class DBStorage:
         return (dic)
 
     def new(self, obj):
-        """add a new element in the table
+        """Add a new element in the table
         """
         self.__session.add(obj)
 
     def save(self):
-        """save changes
+        """Save changes
         """
         self.__session.commit()
 
     def delete(self, obj=None):
-        """delete an element in the table
+        """Delete an element in the table
         """
         if obj:
             self.session.delete(obj)
